@@ -107,12 +107,11 @@ a:hover, a:focus {
   min-height: 600px;
   display: table;
   width: 100%;
-  height: auto;
   padding: 100px 0;
   text-align: center;
   color: #262C28;
   background: url(../img/intro-bg.png) no-repeat bottom left scroll;
-  background-color: #333333;
+  background-color: #FFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
