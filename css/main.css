@@ -67,7 +67,7 @@ a:hover, a:focus {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .navbar-header {
     margin: auto;
   }
@@ -77,7 +77,7 @@ a:hover, a:focus {
     color: #f4f4f4;
   }
   .intro {
-    background: url(../img/intro-bg-2.png) no-repeat bottom left scroll !important;
+    background: url(../img/intro-bg-2.png) no-repeat left scroll !important;
   }
 }
 
@@ -100,18 +100,28 @@ a:hover, a:focus {
   .navbar-custom .top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+  .who-section {
+    padding: 100px 0;
+  }
+  .brand-heading {
+    font-size: 100px !important;
+  }
+  .intro-text {
+    font-size: 25px !important;
+  }
 }
 
 .intro {
+  height: 100%;
   margin: 0 !important;
-  min-height: 600px;
+  min-height: 300px !important;
   display: table;
   width: 100%;
   padding: 100px 0;
   text-align: center;
   color: #262C28;
   background: url(../img/intro-bg.png) no-repeat bottom left scroll;
-  background-color: #FFF;
+  background-color: ##E9E4E1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,6 +129,7 @@ a:hover, a:focus {
 }
 
 .intro-body {
+  height: 100%;
   display: table-cell;
   vertical-align: middle;
 }
@@ -133,19 +144,6 @@ a:hover, a:focus {
 
 .intro-text {
   font-size: 18px;
-}
-
-@media (min-width: 767px) {
-  .intro {
-    height: 100%;
-    padding: 100px 0;
-  }
-  .brand-heading {
-    font-size: 100px;
-  }
-  .intro-text {
-    font-size: 25px;
-  }
 }
 
 .content-section {
@@ -183,12 +181,6 @@ a:hover, a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-@media (min-width: 767px) {
-  .who-section {
-    padding: 100px 0;
-  }
 }
 
 #clients {
